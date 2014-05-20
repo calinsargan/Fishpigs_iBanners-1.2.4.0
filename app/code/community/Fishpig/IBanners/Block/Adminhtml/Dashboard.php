@@ -35,13 +35,13 @@ class Fishpig_IBanners_Block_Adminhtml_Dashboard extends Mage_Adminhtml_Block_Wi
 			));
 		}
 
-		if ($extend = $_layout->createBlock('ibanners/adminhtml_extend')) {
-			$extend->setNameInLayout('fishpig.extend')
-				->setTabLabel($this->__('Add-Ons'))
-				->setTabUrl('*/*/extend');
+		// if ($extend = $_layout->createBlock('ibanners/adminhtml_extend')) {
+		// 	$extend->setNameInLayout('fishpig.extend')
+		// 		->setTabLabel($this->__('Add-Ons'))
+		// 		->setTabUrl('*/*/extend');
 				
-			$this->addTab('extend', $extend);
-		}
+		// 	$this->addTab('extend', $extend);
+		// }
 				
 		return parent::_prepareLayout();
 	}
