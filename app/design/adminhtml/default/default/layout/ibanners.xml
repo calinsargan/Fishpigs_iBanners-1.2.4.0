@@ -24,7 +24,7 @@
 			</block>
 			<block type="ibanners/adminhtml_dashboard" name="ibanners.dashboard" />
 			<block type="core/text" name="ibanners.tabs.content">
-				<action method="setText">
+				<!-- <action method="setText">
 					<text><![CDATA[
 						<div id="ibanners_tab_content"></div>
 						<style type="text/css">#ibanners_tab_content .content-header { display: none; }</style>
@@ -34,7 +34,7 @@
 							);
 						</script>
 					]]></text>
-				</action>
+				</action> -->
 			</block>
 		</reference>
 	</adminhtml_ibanners_index>
