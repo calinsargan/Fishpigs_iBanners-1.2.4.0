@@ -44,25 +44,25 @@ class Fishpig_iBanners_Adminhtml_iBannersController extends Mage_Adminhtml_Contr
 	 */
 	public function extendAction()
 	{
-		$block = $this->getLayout()
-			->createBlock('ibanners/adminhtml_extend')
-			->setModule('Fishpig_iBanners')
-			->setMedium('Add-On Tab')
-			->setTemplate('large.phtml')
-			->setLimit(4)
-			->setPreferred(array(
-				'Fishpig_Bolt',
-				'Fishpig_Opti',
-				'Fishpig_BasketShipping',
-				'Fishpig_Wordpress',
-				'Fishpig_CrossLink',
-				'Fishpig_AttributeSplashPro',
-				'Fishpig_NoBots'
-			));
+		// $block = $this->getLayout()
+		// 	->createBlock('ibanners/adminhtml_extend')
+		// 	->setModule('Fishpig_iBanners')
+		// 	->setMedium('Add-On Tab')
+		// 	->setTemplate('large.phtml')
+		// 	->setLimit(4)
+		// 	->setPreferred(array(
+		// 		'Fishpig_Bolt',
+		// 		'Fishpig_Opti',
+		// 		'Fishpig_BasketShipping',
+		// 		'Fishpig_Wordpress',
+		// 		'Fishpig_CrossLink',
+		// 		'Fishpig_AttributeSplashPro',
+		// 		'Fishpig_NoBots'
+		// 	));
 			
-		$this->getResponse()
-			->setBody(
-				$block->toHtml()
-			);
+		// $this->getResponse()
+		// 	->setBody(
+		// 		$block->toHtml()
+		// 	);
 	}
 }
